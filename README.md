@@ -9,7 +9,7 @@ An algorithm which can save more for data center operator in open energy market
 | --------   | --------  |
 | Data | Source data, including _train_ and _test_, which are used to calculate cost-to-go and simulation  |
 | main     | Data input and output |
-| costtogo        |    Calculating $\alpha$,$\beta$,$\gamma$ and generating cost-to-go function  |
+| costtogo        |    Calculating alpha,beta,gamma and generating cost-to-go function  |
 | schemeSC        |    Calculating the average cost of Second-Chance    |
 | schemeComp | Calculating the average cost of four schemes for comparison |
 | Integral | Custom integral function, which is mainly used n the calculation of cost-to-go |
