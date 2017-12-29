@@ -3,6 +3,8 @@ An algorithm which can save more for data center operator in open energy market
 ## What is Second-Chance
 **Second-Chance** is an _broker-assisted GLB_[^paper1]-based optimization method which can reduce cost of the sequential bidding in sequential geographical markets. We formulate the optimal sequential bidding and GLB problem as a Markov Decision Process (MDP) problem. To solve the problem, we further establish an optimality criterion for the problem and derive the structure of cost-to-go function. The Real-world trace-driven evaluation shows that the electricity cost can be reduced by more than 10% compared with existing related methods.
 
+>
+
 ## What is Included
 | Filename        | Main function   |
 | --------   | --------  |
