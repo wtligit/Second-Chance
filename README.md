@@ -6,7 +6,7 @@ An algorithm which can save more for data center operator in open energy market
 
 ## What is Included
 | Filename        | Main function   |
-| :--------:   | :--------:  |
+| --------   | --------  |
 | Data | Source data, including _train_ and _test_, which are used to calculate cost-to-go and simulation  |
 | main     | Data input and output |
 | costtogo        |    Calculating alpha,beta,gama and generating cost-to-go function  |
