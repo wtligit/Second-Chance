@@ -22,6 +22,6 @@ In this project, we provide a simple sample to calculate the average cost of our
 
 If you have interest, you can change the bidding sequence ( via _DC\_choose_ ), the capacity ( via _C_ ), and the amount of data centers ( via _N_ ),etc. **It should be noted that we only provide data for three data centers, if you want to increase the number of data centers, you also need to increase the corresponding amount of data in _Price\_da\_train_, _Price\_rt\_train_, _Pro\_da\_train_, _Price\_da\_test_ and _Price\_rt\_test_.**
 
-If you want to know more about the algorithm, you can visit at https://github.com/wtligit/Second-Chance, or read [our paper](http://ieeexplore.ieee.org/abstract/document/7460532/?reload=true).
+If you want to know more about the algorithm, you can visit at https://github.com/wtligit/Second-Chance, or read [our paper](https://github.com/wtligit/Second-Chance).
 
 
