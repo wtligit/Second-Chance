@@ -17,6 +17,9 @@ Prn=zeros(1,length(Price_rt_train));
 for slot=1:length(workload)
     cost_calc=0;
     s=workload(slot);
+    if s>sumC
+        s=sumC;
+    end
     for pos=1:length(Price_rt_train)
         Prn(pos)=Price_rt_train{pos}(hour_calc(slot,24));
     end
