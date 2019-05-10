@@ -37,7 +37,7 @@ for test_hour=1:length(workload)
     for t=1:length(C)
         cost_Baseline_buffer=cost_Baseline_buffer+C{t}*Price_rt_test{t}(test_hour);
     end
-    cost_Baseline=cost_Baseline+workload(test_hour)*cost_Baseline_buffer/sumC;
+    cost_Baseline=cost_Baseline+s*cost_Baseline_buffer/sumC;
     % Bid
     for t=1:length(Price_da_test)
         if(Price_da_test{t}(test_hour)<=Price_rt_cur(t))
