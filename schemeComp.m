@@ -25,6 +25,9 @@ cost_BidGLB=0;
 
 for test_hour=1:length(workload)
     s=workload(test_hour);
+    if s>sumC
+        s=sumC;
+    end
     for pos=1:length(Price_rt_train)
         Price_rt_cur(pos)=Price_rt_train{pos}(hour_calc(test_hour,24));
     end
